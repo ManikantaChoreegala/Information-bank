@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -63,8 +63,8 @@ header nav ul li a:hover {
 /*body section*/
 
 .main-body {
-  width: 100vw;
-  height: calc(100vh);
+  width: 100%;
+  height: 100vh;
   background-image: url("assets/bank-background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,8 +76,9 @@ header nav ul li a:hover {
   color: aqua;
   text-align: center;
   margin: 0 auto;
-  padding-top: 250px;
-  font-weight: bold;
+  padding-top: 80%;
+  font-weight: 600;
+  letter-spacing: 2px;
   text-shadow: 6px 6px black;
 }
 
@@ -128,7 +129,6 @@ section div a:hover {
 
 footer {
   padding: 20px 20px;
-  height: calc(100% - 40px);
   background-color: #111;
   overflow: hidden;
   display: flex;
@@ -424,7 +424,7 @@ body {
     margin: 60px 300px;
     float: left;
     line-height: 60px;
-    padding-top: 175px;
+    padding-top: 15%;
     font-weight: bold;
     text-shadow: 3px 3px black;
   }
