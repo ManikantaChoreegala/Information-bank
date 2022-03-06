@@ -9,13 +9,14 @@
 /*Header section*/
 
 body {
-  width: 100vw;
+  width: 100%;
   font-family: "Quicksand", sans-serif;
 }
 
 header {
   width: 100%;
   background-color: black;
+  position: fixed;
 }
 
 header .logo {
@@ -28,6 +29,10 @@ header .logo {
   margin: 0 auto;
   padding: 15px 0;
   justify-content: center;
+}
+
+header img {
+  display: none;
 }
 
 header nav ul {
@@ -45,8 +50,8 @@ header nav ul li {
 
 header nav ul li a {
   color: rgb(255, 254, 253);
-  padding: 1px 4px;
-  border-radius: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 header nav ul li a:hover {
@@ -58,8 +63,8 @@ header nav ul li a:hover {
 /*body section*/
 
 .main-body {
-  width: 100%;
-  height: calc(100vh - 100px);
+  width: 100vw;
+  height: calc(100vh);
   background-image: url("assets/bank-background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,23 +76,18 @@ header nav ul li a:hover {
   color: aqua;
   text-align: center;
   margin: 0 auto;
-  padding-top: 175px;
+  padding-top: 250px;
   font-weight: bold;
   text-shadow: 6px 6px black;
 }
 
 main .login a h1 {
-  display: flex;
-  justify-content: right;
   font-size: 25px;
   border: 2px solid white;
   border-radius: 10px;
-  float: right;
-  margin-right: 20px;
-  margin-top: 0;
 }
 section div a {
-  color: white;
+  color: cyan;
   font-weight: 800;
   font-size: 20px;
   margin: 4px;
@@ -99,7 +99,7 @@ section div a {
   align-items: center;
   float: right;
   margin-right: 20px;
-  margin-top: 25px;
+  margin-top: 125px;
 }
 
 .auth-links {
@@ -116,8 +116,12 @@ section div a {
   display: inline;
 }
 
+.auth-btn:hover {
+  background-color: aqua;
+}
+
 section div a:hover {
-  color: white;
+  color: black;
 }
 
 /*Footer code*/
@@ -127,6 +131,14 @@ footer {
   height: calc(100% - 40px);
   background-color: #111;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer ul {
@@ -143,9 +155,6 @@ footer ul li a {
 }
 
 footer .sm {
-  display: block;
-  float: right;
-  justify-content: right;
   padding-top: 10px;
 }
 
@@ -163,7 +172,7 @@ footer .sm {
   line-height: 26px;
 }
 
-.footer-middle {
+.footer-about {
   display: none;
 }
 
@@ -353,8 +362,9 @@ body {
   background: green;
 }
 
-/* .logo {
+/* .logo { 
   margin: 0;
+  float: left;
 }
 
 .main-header {
@@ -362,3 +372,74 @@ body {
   justify-content: space-between;
   align-items: center;
 } */
+
+/* Media for Desktop version */
+
+@media only screen and (min-width: 1000px) {
+  header img {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    padding-right: 15px;
+    border-right: 3px solid aqua;
+  }
+
+  header .logo-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-header a {
+    margin: 0;
+    margin: 10px 40px;
+    font-size: 13px;
+  }
+
+  header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 30px 0 30px 0;
+    padding-left: 15px;
+  }
+
+  header nav ul li {
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .main-body h1 {
+    font-size: 2.7rem;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    margin: 60px 300px;
+    float: left;
+    line-height: 60px;
+    padding-top: 175px;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+
+  .auth-links {
+    width: 30%;
+    margin-left: 350px;
+  }
+
+  .footer-about {
+    display: inline;
+    color: white;
+  }
+
+  .footer-links {
+    width: 15%;
+  }
+}
