@@ -6,58 +6,9 @@
   text-decoration: none;
 }
 
-/*Header section*/
-
 body {
   width: 100%;
   font-family: "Quicksand", sans-serif;
-}
-
-header {
-  width: 100%;
-  background-color: black;
-  position: fixed;
-}
-
-header .logo {
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  color: aqua;
-  display: block;
-  margin: 0 auto;
-  padding: 15px 0;
-  justify-content: center;
-}
-
-header img {
-  display: none;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-
-header nav ul li {
-  text-transform: uppercase;
-  font-size: 11px;
-  background-color: black;
-}
-
-header nav ul li a {
-  color: rgb(255, 254, 253);
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-header nav ul li a:hover {
-  background: aqua;
-  transition: 0.2s;
-  color: black;
 }
 
 /*body section*/
@@ -68,31 +19,28 @@ header nav ul li a:hover {
   justify-content: space-between;
   width: 100%;
   height: 100vh;
-  background-image: url("assets/bank-background-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/bank-background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .main-body h1 {
-  font-size: 2.7rem;
+  font-size: 45px;
   margin-bottom: 50px;
   color: aqua;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2px;
   text-shadow: 6px 6px black;
 }
 
 .hero-content {
+  padding-bottom: 50px;
   margin: auto;
 }
 
-main .login a h1 {
-  font-size: 25px;
-  border: 2px solid white;
-  border-radius: 10px;
-}
 section div a {
   color: cyan;
   font-weight: 800;
@@ -132,7 +80,7 @@ section div a:hover {
 /*Footer code*/
 
 footer {
-  padding: 20px 20px;
+  padding: 15px 15px;
   background-color: #111;
   overflow: hidden;
   display: flex;
@@ -151,15 +99,11 @@ footer ul {
 
 footer ul li {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 32px;
 }
 
 footer ul li a {
   color: white;
-}
-
-footer .sm {
-  padding-top: 10px;
 }
 
 .sm ul {
@@ -169,11 +113,6 @@ footer .sm {
 .sm ul li {
   font-size: 18px;
   padding-right: 10px;
-}
-
-.sm ul li a {
-  font-size: 18px;
-  line-height: 26px;
 }
 
 .footer-about {
@@ -361,66 +300,14 @@ body {
   background: green;
 }
 
-/* .logo { 
-  margin: 0;
-  float: left;
-}
-
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 /* Media for Desktop version */
 
 @media screen and (min-width: 800px) {
-  header img {
-    display: inline;
-    width: 50px;
-    height: 50px;
-    margin-left: 30px;
-    padding-right: 15px;
-    border-right: 3px solid aqua;
-  }
-
-  header .logo-box {
-    display: flex;
-    align-items: center;
-  }
-
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .main-header a {
-    margin: 0;
-    margin: 10px 40px;
-    font-size: 13px;
-  }
-
-  header .logo {
-    font-size: 28px;
-    font-weight: bold;
-    padding: 0;
-    margin: 30px 0 30px 0;
-    padding-left: 15px;
-  }
-
-  header nav ul li {
-    font-size: 13px;
-    color: black;
-    font-weight: bold;
-  }
-
   .main-body h1 {
-    font-size: 2.7rem;
+    font-size: 45px;
     font-size: 50px;
     color: aqua;
     text-align: center;
-    /* margin: 60px 300px; */
     font-weight: bold;
     text-shadow: 3px 3px black;
   }
@@ -428,6 +315,8 @@ body {
   .footer-about {
     display: inline;
     color: white;
+    padding-top: 10px;
+    line-height: 24px;
   }
 
   .hero-content {

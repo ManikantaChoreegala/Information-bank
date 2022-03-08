@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="head.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Bank Information System</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo-box">
+        <img src="assets/Bank-Logo.png" alt="Bank-Logo" />
+        <a href="index.html" class="logo">Bank-In</a>
+      </div>
 
-    <h1>Contact</h1>
-    
-</body>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-contact">
+      <div class="about">
+        <h1 class="about-heading">Contact-Us</h1>
+
+        <form class="frame">
+          <label>Enter your Name :</label><br />
+          <input type="text" id="fname" name="fname" value="" /><br />
+          <label>E-mail:</label><br />
+          <input type="text" id="lname" name="lname" value="" /><br />
+          <label>Address:</label><br />
+          <input type="text" id="fname" name="fname" value="" /><br />
+          <label>Message:</label><br />
+          <textarea name="message" rows="4" cols="25">Comment Here</textarea
+          ><br /><br />
+          <button type="submit" value="Submit" class="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>

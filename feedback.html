@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="head.css" />
+    <link rel="stylesheet" href="feedback.css" />
     <title>Bank Information System</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo-box">
+        <img src="assets/Bank-Logo.png" alt="Bank-Logo" />
+        <a href="index.html" class="logo">Bank-In</a>
+      </div>
 
-    <h1>Feedback</h1>
-    
-</body>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-feedback">
+      <div class="about">
+        <h1 class="about-heading">Feedback</h1>
+      </div>
+
+      <div class="fb-list">
+        <h3>Did you achieve your goal?</h3>
+
+        <div class="feedback">
+          <ul>
+            <li>yes</li>
+            <li>It's Ok</li>
+            <li>No</li>
+          </ul>
+        </div>
+
+        <h3>How this wesite looks?</h3>
+
+        <div class="feedback-look">
+          <ul>
+            <li>cool</li>
+            <li>It's Ok</li>
+            <li>good</li>
+          </ul>
+        </div>
+
+        <h3>Do you have any suggestions?</h3>
+
+        <div class="sug">
+          <textarea name="message" rows="6" cols="35" class="fb-ta">
+Comment Here</textarea
+          ><br />
+
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
