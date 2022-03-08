@@ -25,6 +25,7 @@ header nav ul {
   justify-content: space-around;
   margin: 0 auto;
   padding: 15px 0;
+  list-style: none;
 }
 
 header nav ul li {
