@@ -9,11 +9,37 @@
     <title>Banking Information System</title>
   </head>
   <body>
-    <form class="box" action="index.html" method="POST">
-      <h1>Register Now</h1>
-      <input type="text" placeholder="Username" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Register" />
-    </form>
+    <header class="main-header">
+      <div class="logo-box">
+        <img src="assets/Bank-Logo.png" alt="Bank-Logo" />
+        <a href="index.html" class="logo">Bank-In</a>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-form">
+      <h1>Register</h1>
+      <form class="form">
+        <input type="text" placeholder="First Name" /><br />
+        <input type="text" placeholder="Last Name" /><br />
+
+        <input type="text" placeholder="E-mail" /><br />
+        <input type="password" placeholder="Password" /><br />
+        <input type="password" placeholder="Confirm Password" /><br />
+        <input type="text" placeholder="Phone Number" /><br />
+        <input type="text" placeholder="Address" /><br />
+        <button type="text" class="btn">Register</button>
+
+        <h6>Already have an account ? <a href="login.html">Lgin in </a></h6>
+      </form>
+    </div>
   </body>
 </html>

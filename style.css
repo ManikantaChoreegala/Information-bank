@@ -28,7 +28,8 @@ body {
 
 .main-body h1 {
   font-size: 45px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  padding: 35px 0;
   color: aqua;
   text-align: center;
   font-weight: 700;
@@ -37,7 +38,6 @@ body {
 }
 
 .hero-content {
-  padding-bottom: 50px;
   margin: auto;
 }
 
@@ -48,17 +48,10 @@ section div a {
   margin: 4px;
 }
 
-.login-link {
-  background-color: black;
-  border-radius: 15px;
-  align-self: flex-end;
-  margin-right: 20px;
-  margin-top: 125px;
-}
-
 .auth-links {
   width: 100%;
   display: flex;
+
   justify-content: space-around;
 }
 
@@ -118,189 +111,6 @@ footer ul li a {
 .footer-about {
   display: none;
 }
-
-/*Login Page*/
-/* 
-body {
-  margin: 0;
-  padding: 0;
-  background: rgb(119, 161, 196);
-}
-.box {
-  width: 300px;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(36, 34, 34);
-  text-align: center;
-}
-.box h1 {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.box input[type="text"],
-.box input[type="password"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid blue;
-  padding: 14px 10px;
-  width: 200px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-}
-.box input[type="text"]:focus,
-.box input[type="password"]:focus {
-  width: 280px;
-  border-color: green;
-}
-
-.box input[type="submit"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid green;
-  padding: 14px 40px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-  cursor: pointer;
-}
-.box input[type="submit"]:hover {
-  background: green;
-} */
-
-/*Sign-up form*/
-
-/* body {
-  margin: 0;
-  padding: 0;
-  background: rgb(119, 161, 196);
-}
-.box {
-  width: 300px;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(36, 34, 34);
-  text-align: center;
-}
-.box h1 {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.box input[type="text"],
-.box input[type="password"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid blue;
-  padding: 14px 10px;
-  width: 200px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-}
-.box input[type="text"]:focus,
-.box input[type="password"]:focus {
-  width: 280px;
-  border-color: green;
-}
-
-.box input[type="submit"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid green;
-  padding: 14px 40px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-  cursor: pointer;
-}
-.box input[type="submit"]:hover {
-  background: green;
-}
-
-/*Register form*/
-
-/* .box {
-  width: 300px;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(36, 34, 34);
-  text-align: center;
-}
-.box h1 {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.box input[type="text"],
-.box input[type="password"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid blue;
-  padding: 14px 10px;
-  width: 200px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-}
-.box input[type="text"]:focus,
-.box input[type="password"]:focus {
-  width: 280px;
-  border-color: green;
-}
-
-.box input[type="submit"] {
-  border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid green;
-  padding: 14px 40px;
-  outline: none;
-  color: white;
-  border-radius: 24px;
-  transition: 0.25s;
-  cursor: pointer;
-}
-.box input[type="submit"]:hover {
-  background: green;
-} */
-
-/* Media for Desktop version */
 
 @media screen and (min-width: 800px) {
   .main-body h1 {
