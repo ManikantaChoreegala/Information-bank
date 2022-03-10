@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding-top: 125px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/bank-background-image.jpg");
+  background-attachment: fixed;
+}
+
+h1 {
+  color: aqua;
+  margin: 40px 30px 0 30px;
+}
+
+.main img {
+  margin: 40px 30px 0 30px;
+  height: 50%;
+  width: 90%;
+}
+
+h2 {
+  color: aqua;
+  margin: 40px 30px 0 30px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  margin: 0 30px;
+  padding: 20px 0;
+  line-height: 26px;
+}
