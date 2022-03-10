@@ -51,6 +51,10 @@ body {
   border-radius: 5px;
 }
 
+.btn a {
+  color: black;
+}
+
 .btn:hover {
   background-color: aqua;
 }

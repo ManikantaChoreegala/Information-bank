@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/bank-background-image.jpg");
+  background-attachment: fixed;
+}
+
+h1 {
+  width: 90%;
+  max-width: 500px;
+  font-size: 12px;
+  height: 50px;
+  color: aqua;
+  display: flex;
+  margin: 0 30px;
+  padding-top: 135px;
+  justify-content: center;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-banks {
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.banks-list {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border: 2px solid aqua;
+  border-radius: 30px;
+
+  background-color: #001212;
+}
+
+.banks-list a h3 {
+  color: white;
+}
+
+.banks-list:hover {
+  background-color: #148383c5;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("assets/bank-background-image.jpg");
+    background-attachment: fixed;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .banks-list {
+    margin-bottom: 35px;
+  }
+}
