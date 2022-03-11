@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
 }
 
 .main {
@@ -10,26 +17,56 @@
   background-attachment: fixed;
 }
 
-h1 {
+.main h1 {
   color: aqua;
   margin: 40px 30px 0 30px;
 }
 
 .main img {
-  margin: 40px 30px 0 30px;
-  height: 50%;
-  width: 90%;
+  margin: 20px 30px;
 }
 
 h2 {
   color: aqua;
-  margin: 40px 30px 0 30px;
+  margin: 30px 30px 0 30px;
 }
 
-p {
+.main p {
   color: white;
   font-size: 16px;
   margin: 0 30px;
   padding: 20px 0;
   line-height: 26px;
+}
+
+@media screen and (min-width: 800px) {
+  .main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("assets/bank-background-image.jpg");
+    background-attachment: fixed;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+  }
+
+  .main h1 {
+    margin: 0 20%;
+  }
+
+  .main h2 {
+    margin: 0 20%;
+  }
+
+  .main p {
+    margin: 0 20%;
+  }
+
+  .main img {
+    margin: 2% auto;
+    height: 30%;
+    width: 50%;
+  }
 }
