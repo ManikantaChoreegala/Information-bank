@@ -6,7 +6,7 @@
 
 footer {
   padding: 15px 15px;
-  background-color: #111;
+  background-color: rgba(255, 255, 255, 0.918);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -23,12 +23,13 @@ footer ul {
 }
 
 footer ul li {
+  font-weight: 600;
   font-size: 18px;
   line-height: 32px;
 }
 
 footer ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .sm ul {
@@ -39,6 +40,10 @@ footer ul li a {
   padding-right: 10px;
 }
 
+.footer-about p {
+  font-weight: 600;
+}
+
 .footer-about {
   display: none;
 }
@@ -46,7 +51,7 @@ footer ul li a {
 @media screen and (min-width: 800px) {
   .footer-about {
     display: inline;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 10px;
     line-height: 24px;
   }
