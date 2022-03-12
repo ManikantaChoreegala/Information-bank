@@ -6,7 +6,7 @@
 
 footer {
   padding: 15px 15px;
-  background-color: rgba(0, 0, 0, 0.918);
+  background-color: rgba(0, 0, 0, 0.973);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,8 @@ footer ul li a {
 @media screen and (min-width: 800px) {
   .footer-about {
     display: inline;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
     padding-top: 10px;
     line-height: 24px;
   }
@@ -71,6 +72,7 @@ footer ul li a {
   }
 
   .footer-links {
-    width: 15%;
+    width: 20%;
+    margin-right: 25px;
   }
 }
