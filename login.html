@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="head.css" />
-    <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="valid.js"></script>
+
     <title>Banking Information System</title>
   </head>
 
@@ -29,11 +31,12 @@
     <div class="login-form">
       <h1 class="login-heading">Login</h1>
 
-      <form class="form">
-        <input type="text" placeholder="Username" /><br />
-        <input type="password" placeholder="Password" /><br />
-        <button type="text" class="btn">
-          <a href="bankpage.html">Log in</a></button
+      <form class="form" id="form" method="post">
+        <input id="username" type="text" placeholder="Username" /><br />
+        <input id="password" type="password" placeholder="Password" /><br />
+        <button type="text" class="btn" id="submit-btn">
+          Login
+          <!-- <a href="bankpage.html">Log in</a> --></button
         ><br />
 
         <h6>
