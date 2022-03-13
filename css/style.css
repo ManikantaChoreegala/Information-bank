@@ -84,7 +84,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 footer ul {
@@ -103,11 +103,6 @@ footer ul li a {
 
 .sm ul {
   list-style: none;
-}
-
-.sm ul li {
-  font-size: 18px;
-  padding-right: 10px;
 }
 
 .footer-about p {
@@ -148,5 +143,6 @@ footer ul li a {
 
   .footer-links {
     width: 15%;
+    margin: 0 25px;
   }
 }

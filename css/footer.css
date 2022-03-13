@@ -36,6 +36,10 @@ footer ul li a {
   list-style: none;
 }
 
+.sm ul li {
+  list-style: none;
+}
+
 .footer-about p {
   font-weight: 600;
 }
