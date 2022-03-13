@@ -28,18 +28,25 @@
 
     <div class="main-form">
       <h1>Register</h1>
-      <form class="form">
-        <input type="text" placeholder="First Name" /><br />
-        <input type="text" placeholder="Last Name" /><br />
+      <form class="form" id="registerForm" method="post">
+        <input id="firstname" type="text" placeholder="First Name" /><br />
+        <input id="lastname" type="text" placeholder="Last Name" /><br />
 
-        <input type="text" placeholder="E-mail" /><br />
-        <input type="password" placeholder="Password" /><br />
-        <input type="password" placeholder="Confirm Password" /><br />
-        <input type="text" placeholder="Phone Number" /><br />
-        <input type="text" placeholder="Address" /><br />
-        <button type="text" class="btn">
-          <a href="bankpage.html"> Register</a>
-        </button>
+        <input id="email" type="text" placeholder="E-mail" /><br />
+        <input
+          id="registerPassword"
+          type="password"
+          placeholder="Password"
+        /><br />
+        <input
+          id="confirmPassword"
+          type="password"
+          placeholder="Confirm Password"
+        /><br />
+        <input id="phoneNumber" type="text" placeholder="Phone Number" /><br />
+        <input id="address" type="text" placeholder="Address" /><br />
+        <button type="text" class="btn" id="Register-btn">Register</button
+        ><br />
 
         <h6>Already have an account ? <a href="login.html">Log in </a></h6>
       </form>

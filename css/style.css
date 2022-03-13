@@ -84,6 +84,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-right: 25px;
 }
 
 footer ul {
@@ -115,6 +116,7 @@ footer ul li a {
 
 .footer-about {
   display: none;
+  margin-left: 25px;
 }
 
 @media screen and (min-width: 800px) {
