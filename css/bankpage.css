@@ -63,6 +63,10 @@ h1 {
   background-color: #148383c5;
 }
 
+.banks-list:hover h3 {
+  color: black;
+}
+
 .lastline {
   font-size: 13px;
   color: aqua;

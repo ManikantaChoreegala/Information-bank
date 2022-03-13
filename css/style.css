@@ -64,12 +64,12 @@ section div a {
 
 .auth-btn:hover {
   background-color: aqua;
-}
-
-section div a:hover {
   color: black;
 }
 
+.auth-btn:hover > a {
+  color: black;
+}
 /*Footer code*/
 
 footer {

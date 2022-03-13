@@ -31,7 +31,7 @@ function loginvalid(){
 
     else{
         alert("Login Success")
-        window.location.href = "/bankpage.html"
+        window.location.href = "./bankpage.html"
     }
 
 
@@ -116,7 +116,7 @@ function registration(){
 
     else{
         alert("Registration Success")
-        window.location.href = "/bankpage.html"
+        window.location.href = "./bankpage.html"
     }
 
 
