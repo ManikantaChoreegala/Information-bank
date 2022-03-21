@@ -28,14 +28,30 @@
 
     <div class="main-form">
       <h1>Register</h1>
-      <form class="form" id="registerForm" method="post">
-        <input id="firstname" type="text" placeholder="First Name" /><br />
-        <input id="lastname" type="text" placeholder="Last Name" /><br />
+      <form
+        class="form"
+        id="registerForm"
+        method="post"
+        action="http://localhost/php-programming/register.php"
+      >
+        <input
+          id="firstname"
+          type="text"
+          name="firstname"
+          placeholder="First Name"
+        /><br />
+        <input
+          id="lastname"
+          type="text"
+          name="lastname"
+          placeholder="Last Name"
+        /><br />
 
-        <input id="email" type="text" placeholder="E-mail" /><br />
+        <input id="email" type="text" name="email" placeholder="E-mail" /><br />
         <input
           id="registerPassword"
           type="password"
+          name="password"
           placeholder="Password"
         /><br />
         <input

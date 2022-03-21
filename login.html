@@ -31,14 +31,25 @@
     <div class="login-form">
       <h1 class="login-heading">Login</h1>
 
-      <form class="form" id="form" method="post">
+      <form
+        class="form"
+        id="form"
+        method="post"
+        action="http://localhost/php-programming/login.php"
+      >
         <input
           id="username"
           type="text"
-          placeholder="E-mail Or Username"
+          name="email"
+          placeholder="E-mail Address"
         /><br />
-        <input id="password" type="password" placeholder="Password" /><br />
-        <button type="text" class="btn" id="submit-btn">Login</button><br />
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Password"
+        /><br />
+        <button type="submit" class="btn" id="submit-btn">Login</button><br />
 
         <h6>
           If you haven't any account ? <a href="register.html">Register</a>
