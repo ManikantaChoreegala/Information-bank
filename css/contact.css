@@ -83,7 +83,7 @@ body {
 
 @media screen and (min-width: 800px) {
   .main-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
       url("../assets/bank-background-image.jpg");
     background-attachment: fixed;
   }
@@ -93,5 +93,69 @@ body {
 
   .about h1 {
     margin: 0 auto;
+  }
+  .contact {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .contact div {
+    padding: 100px 20px 0 25px;
+  }
+
+  .personal {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .personal div {
+    padding: 100px 0 20px 25px;
+  }
+
+  .contact h3 {
+    color: aqua;
+  }
+
+  .personal h3 {
+    color: aqua;
+  }
+  h2 {
+    color: aqua;
+  }
+  p {
+    color: white;
+  }
+
+  .all-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .my-img {
+    padding: 100px 30px;
+  }
+
+  .my-img img {
+    border: 2px solid aqua;
+    border-radius: 10px;
+  }
+
+  #R-content h3 {
+    color: white;
+  }
+
+  #R-content {
+    padding-top: 150px;
+  }
+  .main-contact h3 {
+    padding-bottom: 12px;
+  }
+
+  .main-contact h2 {
+    border-bottom: 2px solid white;
   }
 }

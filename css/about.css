@@ -42,6 +42,34 @@ h2 {
   border-bottom: 2px solid cyan;
 }
 
+h3 {
+  color: aqua;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  color: aqua;
+  padding: 4px 0;
+}
+h5 {
+  color: aqua;
+  padding-bottom: 30px;
+}
+
+.imgs img {
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 800px) {
   .main-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -70,5 +98,31 @@ h2 {
 
   .about-heading {
     width: 60%;
+  }
+
+  .first-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .first-imgs div {
+    padding: 0 60px;
+    text-align: center;
+  }
+
+  .second-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .second-imgs div {
+    padding: 0 60px;
+    text-align: center;
   }
 }
