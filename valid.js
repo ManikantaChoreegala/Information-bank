@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   var password = document.getElementById("password");
   var form = document.getElementById("form");
   form.addEventListener("submit", (e) => {
+    e.preventDefault();
     loginvalid();
   });
 });
