@@ -87,6 +87,7 @@ body {
       url("../assets/bank-background-image.jpg");
     background-attachment: fixed;
   }
+
   .about-heading {
     width: 60%;
   }
@@ -132,7 +133,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px 0;
+    padding: 15px 0 100px 0;
   }
 
   .my-img {
