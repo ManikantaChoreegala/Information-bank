@@ -81,6 +81,10 @@ body {
   background-color: aqua;
 }
 
+.all-contact {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .main-contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),

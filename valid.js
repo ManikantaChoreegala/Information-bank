@@ -40,8 +40,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   var phoneNumber = document.getElementById("phoneNumber");
 
-  var address = document.getElementById("address");
-
   var registerForm = document.getElementById("registerForm");
 
   registerForm.addEventListener("submit", (e) => {
@@ -74,9 +72,6 @@ function registration() {
     return false;
   } else if (phoneNumber.value.trim() == "") {
     alert("Please enter your Phone number");
-    return false;
-  } else if (address.value.trim() == "") {
-    alert("Please enter your Address");
     return false;
   } else {
     window.location.href = "./bankpage.html";
